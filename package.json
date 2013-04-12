@@ -1,0 +1,27 @@
+{
+    "name": "bible-code-tools",
+    "description": "Set of tools to explore the Bible code.",
+    "version": "0.1.0",
+    "author": {
+        "name": "DivDE",
+        "email": "divde@free.fr"
+    },
+    "licenses": [{
+            "type": "GNU General Public License",
+            "url": "http://www.gnu.org/licenses/gpl.html"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/davdiv/bible-code-tools.git"
+    },
+    "bin": {
+        "extractBible": "./bin/extractBible.js"
+    },
+    "dependencies": {
+        "adm-zip": "~0.2.1",
+        "iconv-lite": "0.2.7",
+        "optimist": "~0.3.7",
+        "sax": "~0.5.2"
+    }
+}
